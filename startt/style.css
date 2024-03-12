@@ -78,14 +78,46 @@ header nav a:hover {
   font-size: 20px;
   color: #797878;
 }
-#portfolio .textbox h2 {
+#portfolio .box {
+  position: relative;
+}
+#portfolio .box .textbox h2 {
   font-size: 25px;
   font-weight: 700;
   margin: 25px 0 10px;
 }
-#portfolio .textbox h5 {
+#portfolio .box .textbox h5 {
   font-size: 18px;
   font-style: italic;
   color: #908f8f;
   padding: 0 0 50px;
+}
+
+#about {
+  padding: 50px 0;
+}
+#about h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#about h4 {
+  font-size: 18px;
+  font-style: italic;
+  color: #797979;
+  margin: 20px 0 60px;
+}
+#about .textbox {
+  width: 380px;
+}
+#about .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+#about .textbox p {
+  font-size: 18px;
+  color: #797979;
+}
+#about .imgbox {
+  width: 125px;
 }/*# sourceMappingURL=style.css.map */
