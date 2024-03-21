@@ -173,4 +173,23 @@ header nav a:hover {
   width: 740px;
   margin: 50px;
   line-height: 1.4;
+}
+
+#loqos {
+  padding: 30px 0;
+}
+#loqos .imgbox1 {
+  width: 200px;
+}
+#loqos .imgbox2 {
+  width: 130px;
+}
+#loqos .imgbox3 {
+  width: 150px;
+}
+#loqos .imgbox4 {
+  width: 100px;
+}
+#loqos .imgbox1, #loqos .imgbox2, #loqos .imgbox3, #loqos .imgbox4 {
+  margin-left: 80px;
 }/*# sourceMappingURL=style.css.map */
