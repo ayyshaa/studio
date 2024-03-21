@@ -122,6 +122,55 @@ header nav a:hover {
   width: 125px;
 }
 
+#team {
+  padding: 50px 0;
+}
 #team h1 {
-  color: #ff0000;
+  font-size: 45px;
+  font-weight: 700;
+}
+#team h4 {
+  color: #828282;
+  font-size: 18px;
+  font-style: italic;
+  margin: 25px 0 40px;
+}
+#team .imgbox {
+  width: 240px;
+  margin: 25px;
+}
+#team .imgbox img {
+  border: 8px solid #d8d8d8;
+  border-radius: 50%;
+}
+#team .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#team .textbox h5 {
+  font-size: 18px;
+  color: #828282;
+  margin: 10px 0 20px;
+}
+#team ul {
+  display: flex;
+  justify-content: center;
+}
+#team ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #1a1b20;
+  color: white;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+#team .wid h5 {
+  color: #737373;
+  font-size: 18px;
+  width: 740px;
+  margin: 50px;
+  line-height: 1.4;
 }/*# sourceMappingURL=style.css.map */
