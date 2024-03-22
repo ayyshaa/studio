@@ -214,8 +214,37 @@ header nav a:hover {
 }
 #contact .place input {
   padding: 20px 20px;
-  margin: 0 0 23px;
+  margin: 0 0 27px;
+  font-size: 20px;
 }
 #contact .textbox textarea {
-  border-radius: 2%;
+  border-radius: 5px;
+  padding: 15px 0 0 15px;
+  color: #979797;
+  font-size: 20px;
+}
+#contact .btn {
+  background-color: #ffc021;
+  color: white;
+  font-size: 20px;
+  padding: 20px 30px;
+  opacity: 0.7;
+}
+
+footer {
+  padding: 25px 0;
+}
+footer .menu a {
+  color: #000000;
+}
+footer .menu ul {
+  display: flex;
+  justify-content: center;
+}
+footer .menu li {
+  background-color: #000000;
+  color: white;
+  padding: 11px 14px;
+  border-radius: 50%;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
