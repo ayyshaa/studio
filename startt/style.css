@@ -11,7 +11,9 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  padding: 30px;
+  padding: 20px;
+  background-color: #212529;
+  z-index: 1;
 }
 header .imgbox {
   width: 200px;
@@ -23,6 +25,34 @@ header nav a {
 header nav a:hover {
   color: #fcd31e;
   cursor: pointer;
+}
+
+#welcome .textbox {
+  height: 700px;
+  color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#welcome .textbox h1 {
+  font-size: 55px;
+  font-style: italic;
+}
+#welcome .textbox h2 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 30px 0 50px;
+}
+#welcome .textbox .btn {
+  background-color: #ffc800;
+  padding: 25px 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+#welcome .textbox .btn:hover {
+  background-color: #dfaf00;
 }
 
 #services {
@@ -78,9 +108,6 @@ header nav a:hover {
   font-size: 20px;
   color: #797878;
 }
-#portfolio .box {
-  position: relative;
-}
 #portfolio .box .textbox h2 {
   font-size: 25px;
   font-weight: 700;
@@ -91,6 +118,18 @@ header nav a:hover {
   font-style: italic;
   color: #908f8f;
   padding: 0 0 50px;
+}
+#portfolio .box .imgbox .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  font-size: 50px;
+  color: white;
 }
 
 #about {
@@ -106,20 +145,52 @@ header nav a:hover {
   color: #797979;
   margin: 20px 0 60px;
 }
-#about .textbox {
-  width: 380px;
+#about .box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 100px 110px;
 }
-#about .textbox h2 {
+#about .box .textbox {
+  width: 420px;
+  margin: 0 20px;
+}
+#about .box .textbox h2 {
   font-size: 30px;
   font-weight: 700;
+  line-height: 1.5;
+}
+#about .box .textbox p {
+  font-size: 20px;
+  color: #7f7f7f;
   line-height: 1.4;
+  margin-top: 10px;
 }
-#about .textbox p {
-  font-size: 18px;
-  color: #797979;
+#about .box .imgbox {
+  border: 8px solid #dddddd;
+  border-radius: 50%;
+  width: 170px;
 }
-#about .imgbox {
-  width: 125px;
+#about .box .imgbox img {
+  border-radius: 50%;
+}
+#about .rigth {
+  margin-right: 80px;
+}
+#about .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbe200;
+  border: 8px solid #dddddd;
+  border-radius: 50%;
+  color: white;
+  width: 170px;
+  height: 170px;
+  font-weight: 700;
+  font-size: 20px;
+}
+#about .btn h5 {
+  width: 70px;
 }
 
 #team {
@@ -166,6 +237,9 @@ header nav a:hover {
   color: white;
   border-radius: 50%;
   margin: 0 12px;
+}
+#team ul li:hover {
+  cursor: pointer;
 }
 #team .wid h5 {
   color: #737373;
